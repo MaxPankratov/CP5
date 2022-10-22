@@ -1,4 +1,4 @@
-def convert(number, base):
+def convert_from_decimal(number, base):
 	result = ''
 
 	while number > 0:
@@ -16,4 +16,4 @@ while True:
 	print("!!! Основание системы счисления должно быть от 2 до 9 !!!")
 
 
-print("Вывод:", enteredNumber, "->", convert(enteredNumber, enteredBase))
+print("Вывод:", enteredNumber, "->", convert_from_decimal(enteredNumber, enteredBase))
